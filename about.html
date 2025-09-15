@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Sunk Robotics</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f6fa;
+      color: #041c36;
+      position: relative;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .highlight-spot {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(40px);
+      opacity: 0.3;
+      z-index: 0;
+    }
+    .highlight-spot1 {
+      width: 400px;
+      height: 400px;
+      top: 60px;
+      left: -120px;
+      background: radial-gradient(circle, #1e90ff 0%, #041c36 80%);
+    }
+    .highlight-spot2 {
+      width: 300px;
+      height: 300px;
+      bottom: 40px;
+      right: -100px;
+      background: radial-gradient(circle, #041c36 0%, #1e90ff 80%);
+    }
+    .highlight-spot3 {
+      width: 250px;
+      height: 250px;
+      top: 30%;
+      left: 10%;
+      background: radial-gradient(circle, #1e90ff 0%, transparent 80%);
+      opacity: 0.15;
+    }
+    .highlight-spot4 {
+      width: 200px;
+      height: 200px;
+      top: 60%;
+      right: 20%;
+      background: radial-gradient(circle, #1e90ff 0%, transparent 80%);
+      opacity: 0.12;
+    }
+    .navbar {
+      background-color: #041c36 !important;
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .navbar-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+    }
+    .navbar-left, .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 64px;
+      padding: 0 40px;
+    }
+    .navbar-center {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 80px;
+    }
+    .navbar-brand img {
+      height: 70px;
+      width: auto;
+      display: block;
+    }
+    .nav-link, .support-btn {
+      color: #fff !important;
+      font-size: 1.25rem;
+      font-weight: bold;
+      background: none;
+      border: none;
+      padding: 0 15px;
+      text-decoration: none !important;
+      border-radius: 0;
+      transition: background 0.2s, color 0.2s;
+      text-align: center;
+    }
+    .nav-link.active {
+      color: #fff !important;
+    }
+    .support-btn:hover {
+      transform: translateY(-2px);
+      background-color: #fff;
+      color: #041c36 !important;
+    }
+    .section-title { margin-top: 40px; margin-bottom: 20px; font-weight: bold; color: #041c36; }
+    .robot-img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin-bottom: 10px; border: 2px solid #0a2540; }
+    .footer { background: #041c36; color: #fff; padding: 20px 0; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="highlight-spot highlight-spot1"></div>
+  <div class="highlight-spot highlight-spot2"></div>
+  <div class="highlight-spot highlight-spot3"></div>
+  <div class="highlight-spot highlight-spot4"></div>
+  <nav class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-left">
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="robotics.html">Robots</a>
+      </div>
+      <div class="navbar-center">
+        <a class="navbar-brand" href="Bootstrap code for sunk.html">
+          <img src="SunkLogoTextWhite.svg" alt="Sunk Robotics Logo">
+        </a>
+      </div>
+      <div class="navbar-right">
+        <a class="nav-link" href="#team">Our Team</a>
+        <a class="support-btn" href="#support">Support Us</a>
+      </div>
+    </div>
+  </nav>
+    <p>
+      Sunk Robotics is a high school, student-run robotics team based in Medford Vocational Technical High School, Massachusetts. Since our founding in November 2021, we have developed multiple underwater engineering solutions and competed in the MATE ROV Competition.
+    </p>
+    <p>
+      Our mission is to make reliable, robust, and reputable underwater engineering solutions while inspiring the next generation of engineers and innovators.
+    </p>
+    <p>
+      <strong>Contact:</strong> <a href="mailto:sunk@sunkrobotics.com">sunk@sunkrobotics.com</a>
+    </p>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>2025 Sunk Robotics &copy; All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
